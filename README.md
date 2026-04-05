@@ -144,3 +144,67 @@ Understanding this helps evaluate risks such as:
 ---
 
 ## Project Structure
+├── build_synthetic_false_facts_dataset.ipynb
+├── build_evaluation_prompt_dataset.ipynb
+├── run_baseline_evaluation.ipynb
+├── (fine-tuning notebook - upcoming)
+├── (post-training evaluation notebook - upcoming)
+├── data/
+│ ├── false_facts.json
+│ ├── evaluation_prompts.json
+│ └── baseline_results.json
+
+
+---
+
+## Current Progress
+
+- ✅ Synthetic dataset created  
+- ✅ Evaluation prompts created  
+- ✅ Baseline evaluation completed  
+- ⏳ Fine-tuning in progress  
+- ⏳ Post-training evaluation pending  
+
+---
+
+## Limitations
+
+- Small dataset size may limit observable effects  
+- Results may be inconsistent due to stochastic model behaviour  
+- Fine-tuning setup is simplified for learning purposes  
+
+---
+
+## Next Steps
+
+- Run fine-tuning experiment  
+- Compare pre- and post-training results  
+- Analyze behavioural changes  
+- Document findings  
+
+---
+
+## Learning Goals
+
+This project is part of a technical AI safety learning sprint, with goals to:
+
+- Understand experimental AI safety research workflows  
+- Practice hypothesis-driven experimentation  
+- Develop intuition for model behaviour under intervention  
+
+---
+
+## Acknowledgements
+
+Inspired by research on:
+
+- Emergent misalignment in LLMs  
+- Synthetic document fine-tuning (SDF)  
+- Capability Prevention & Removal (CPR)  
+
+---
+
+## Author
+
+Munenyashaishe Hove  
+AI Governance & Safety Researcher
